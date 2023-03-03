@@ -1,57 +1,57 @@
 *, *:before, *:after {
     box-sizing: inherit;
-}
-
-
-
-
-body {
-	line-height: 1.6;
-	margin: 0;
-	min-height: 100vh;
-}
-ul {
+  }
+  
+  
+  
+  
+  body {
+  line-height: 1.6;
+  margin: 0;
+  min-height: 100vh;
+  }
+  ul {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-
-
-
-a {
-	text-decoration: none;
-}
- 
-
-
-.logo {
-	margin: 0;
-	font-size: 1.45em;
-}
-
-.logo a,
-.main-nav a {
-	padding: 10px 15px;
-	text-transform: capitalize;
-	text-align: center;
-	display: block;
-}
-
-
-.logo a{
-margin-top: 1rem;
-}
-
-
-
-.main-nav a {
-	color: #191919;
-	font-size: 14px;
+  }
+  
+  
+  
+  
+  a {
+  text-decoration: none;
+  }
+  
+  
+  
+  .logo {
+  margin: 0;
+  font-size: 1.45em;
+  }
+  
+  .logo a,
+  .main-nav a {
+  padding: 10px 15px;
+  text-transform: capitalize;
+  text-align: center;
+  display: block;
+  }
+  
+  
+  .logo a{
+  margin-top: 1rem;
+  }
+  
+  
+  
+  .main-nav a {
+  color: #191919;
+  font-size: 14px;
     margin-top: 10px;
-}
-
-.bottone{
+  }
+  
+  .bottone{
     background-color: rgb(8, 8, 8);
     border-radius: 50px;
     margin-top: 12.5px;
@@ -60,99 +60,159 @@ margin-top: 1rem;
     font-size: 14px;
     height: 30px;
     width: 100px;
-}
-
-
-.header {
-	padding-top: .5em;
-	padding-bottom: .5em;
+  }
+  
+  
+  .header {
+  padding-top: .5em;
+  padding-bottom: .5em;
     border-bottom: 1px solid #191919;
     width: 100%;
     height: 75px;
-	margin: 0 auto;
+     margin: 0 auto;
     flex-direction: row;
-	justify-content: space-around;
-	background-color: rgb(255, 192, 23);
+    justify-content: space-around;
+    background-color: rgb(255, 192, 23);
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
+  }
+  
+  /* ================================= 
+  HERO SECTION
+  ==================================== */
+  
+  
+  
+  .hero-section,
+.content-section {
+  height: 350px;
+  padding: 100px;
+  background-color: rgb(255, 192, 23);
 }
 
-/* ================================= 
- HERO SECTION
-==================================== */
 
 
-
-h1 {
+.hero-section h1 {
     font-family: 'Spectral', serif;
     color: #191919;
-  }
-  
-  .hero-section {
-    position: absolute;
-    top: 16%;
-    left: 12%;
-    
-  }
-  
-  .hero-section h1 {
-    margin-top: 5px;
+    margin-top: -55px;
+    line-height: 110px;
     font-size: 106px;
     margin-left: 50px;
-  }
-  .hero-section p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    margin: 16px 0 2em 59px;
-    line-height: 30px;
-  }
-  
-   .bottone2 {
-   background-color: rgb(8, 8, 8);
-   border-radius: 50px;
-   margin-top: 12.5px;
-   margin-left: 64px;
-   color: rgb(255, 247, 232);
-   font-size: 20px;
-   height: 30px;
-   width: 200px;
-  }
+}
+
+.hero-section p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        margin: 16px 0 2em 60px;
+        line-height: 30px;
+}
+
+.bottone2 {
+    background-color: rgb(8, 8, 8);
+    border-radius: 50px;
+    margin-top: 12.5px;
+    margin-left: 64px;
+    color: rgb(255, 247, 232);
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+   }
 
   
-  
+   .spessore{
+   margin-top: 0;
+   color: #191919;
+   }
 
 
   /* ================================= 
- SVG M
-==================================== */
-.container {
+  SVG M
+  ==================================== */
+  .container2 {
     position: absolute;
     right: 0;
     width: 585px;
     /* font-weight: 400; */
-}
-
-.svg-container svg {
+  }
+  
+  .svg-container2 svg {
     vertical-align: middle;
     overflow: hidden;
     height: 462px; 
-}
+  }
 
-/* ================================= 
+
+
+
+  /*MAIN*/
+
+  .content-section {
+    background:rgb(255, 255, 255)
+  }
+  
+
+  .counter {
+    width: 20px;
+    height: 20px;
+    background: black;
+    color: #fff;
+    position: fixed;
+    top: 120px;
+    right: 0;
+  }
+  
+  .card{
+    width: 350px;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+    }
+    
+    img{
+      border-radius: 50%;
+      width: 70px;
+      margin: 10px;
+    }
+    
+    h1{
+        font-family: 'Spectral', serif;
+        font-weight: lighter;
+      margin-left: 100px;
+      margin-top: -70px;
+    }
+    
+    p{
+      margin-top: 20px;
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.4em;
+      font-size: 1.2em;
+      
+    }
+    
+    #mainbox{
+      font-family: calibri;
+      box-sizing: border-box;
+      justify-content: center;
+      display: flex;
+    flex-wrap: wrap;
+    }
+  /* ================================= 
   Media Queries
-==================================== */
-
-
-
-
-@media (min-width: 169px) {
-	.header,
-	.main-nav {
-		display: flex;
-	}
-	.header {
-    	
-		align-items: center;}
-
-}
-
+  ==================================== */
+  
+  
+  
+  
+  @media (min-width: 169px) {
+  .header,
+  .main-nav {
+    display: flex;
+  }
+  .header {
+      
+    align-items: center;}
+  
+  }
+  
+  
